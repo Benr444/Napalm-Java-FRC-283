@@ -6,6 +6,7 @@ public abstract class Constants
 	
 	//Robot Ports
 		//PWM
-			public static final int LEFT_DRIVE_CONTROLER_PORT = 0;
 			public static final int RIGHT_DRIVE_CONTROLER_PORT = 1;
+			public static final int LEFT_DRIVE_CONTROLLER_PORT = 0;
+			public static final int GEAR_SHIFT_SOLENOID_PORT = 0;
 }
