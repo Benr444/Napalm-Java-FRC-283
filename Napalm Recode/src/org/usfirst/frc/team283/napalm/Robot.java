@@ -73,8 +73,8 @@ public class Robot extends IterativeRobot
 		autoTimer.start(); //Reset and start the auto timer so that if the first step requires waiting it can wait
 	}
 	
-	@Override
-	public void autonomousPeriodic() 
+	/*@Override
+	public void autonomousPeriodic()
 	{
 		System.out.println("AUTONOMOUS STATUS:");
 		System.out.println("    autoMode = " + aM);
@@ -131,12 +131,6 @@ public class Robot extends IterativeRobot
 						drivetrain.driveRightDistance(-25);
 						autoStep++;
 					break;
-					case 5:
-						 if (drivetrain.periodic() == false) //Wait for the forward motion to finish (When it is false, it is done)
-						 {
-							 autoStep++; //When we reach target, advance step
-						 }
-					case 6:
 						//Finished.
 					break;
 				}
@@ -144,7 +138,7 @@ public class Robot extends IterativeRobot
 			case kDone:
 			break;
 		}
-	}
+	}*/
 	
 	@Override
 	public void teleopInit()
